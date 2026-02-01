@@ -5,13 +5,13 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    details: ['aegresearchlens@gmail.com','info@vidhyapeethbhopal.ac.in,'],
+    details: ['aegresearchlens@gmail.com'],
     color: 'bg-blue-500/10 text-blue-600',
   },
   {
     icon: Phone,
     title: 'Phone',
-    details: ['+91 6268558700', '+91 9229285100','+91 9981999370'],
+    details: ['+91 6268558700', '+91 9229285100',],
     color: 'bg-green-500/10 text-green-600',
   },
   {

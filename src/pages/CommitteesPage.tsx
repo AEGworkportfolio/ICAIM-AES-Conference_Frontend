@@ -66,6 +66,20 @@ const committees = {
     icon: Sparkles,
     members: [
       {
+  name: 'Dr. Xiao-Zhi Gao',
+  role: 'Advisory Board Member',
+  affiliation:
+    'School of Computing, University of Eastern Finland, Kuopio 70211, Finland',
+},
+{
+  name: 'Dr. Babak Safaei',
+  role: 'Advisory Board Member',
+  affiliation:
+    'Director, Nanotechnology and Multifunctional Structures Research Center (NMSRC), Department of Mechanical Engineering, Eastern Mediterranean University, North Cyprus via Mersin 10, 99628, Turkey',
+},
+
+      ,
+      {
         name: 'Dr. Sheetal Kumar Dewangan',
         role: 'Advisory Board Member',
         affiliation:
