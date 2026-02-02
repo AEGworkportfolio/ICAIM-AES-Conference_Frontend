@@ -3,6 +3,8 @@ import { PageHeader } from '@/components/sections/PageHeader';
 import { SectionHeader } from '@/components/sections/SectionHeader';
 import { Button } from '@/components/ui/button';
 import { CreditCard, AlertCircle, CheckCircle, ArrowRight } from 'lucide-react';
+import PaymentQR from "@/assets/QR.jpg";
+
 
 const registrationFees = {
   indian: {
@@ -109,44 +111,75 @@ export default function RegistrationPage() {
       </section>
 
       {/* Payment Info */}
-      <section className="section-padding bg-background">
-        <div className="section-container">
-          <div className="max-w-4xl mx-auto">
-            <SectionHeader 
-              title="Payment Instructions" 
-            />
-            
-            <div className="bg-card rounded-xl p-8 card-elevated mb-8">
-              <div className="flex items-start gap-4 mb-6">
-                <CreditCard className="w-6 h-6 text-accent shrink-0" />
-                <div>
-                  <h4 className="font-semibold text-foreground mb-2">Bank Transfer Details</h4>
-                  <p className="text-muted-foreground text-sm mb-4">
-                    Please make the payment via NEFT/RTGS to the following account:
-                  </p>
-                  <div className="bg-muted rounded-lg p-4 space-y-2 text-sm">
-                    <p><strong>Account Name:</strong> AEG RESEARCH SOLUTIONS</p>
-                    <p><strong>Bank:</strong> Axis Bank of India</p>
-                    <p><strong>Account No:</strong> 925020007742691</p>
-                    <p><strong>IFSC Code:</strong> utib0001687</p>
-                    <p><strong>Branch:</strong> Indrapuri Campus Branch</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+      {/* Payment Info */}
+{/* Payment Info */}
+<section className="section-padding bg-background">
+  <div className="section-container">
+    <div className="max-w-4xl mx-auto">
+      <SectionHeader title="Payment Instructions" />
 
-            <div className="bg-accent/10 border border-accent/30 rounded-xl p-6 flex items-start gap-4">
-              <AlertCircle className="w-6 h-6 text-accent shrink-0 mt-0.5" />
-              <div>
-                <h4 className="font-semibold text-foreground mb-2">Important Note</h4>
-                <p className="text-muted-foreground text-sm">
-                  After making the payment, please email the transaction details along with a copy of the payment receipt to aegresearchlens@gmail.com with your paper ID (if applicable).
+      <div className="bg-card rounded-xl p-8 card-elevated mb-8">
+        <div className="flex items-start gap-4 mb-6">
+          <CreditCard className="w-6 h-6 text-accent shrink-0" />
+
+          <div className="w-full">
+            <h4 className="font-semibold text-foreground mb-2">
+              Bank Transfer Details
+            </h4>
+            <p className="text-muted-foreground text-sm mb-6">
+              Please make the payment via NEFT/RTGS or scan the QR code.
+            </p>
+
+            {/* Row Layout */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+              
+              {/* Bank Details */}
+              <div className="bg-muted rounded-lg p-4 space-y-2 text-sm">
+                <p><strong>Account Name:</strong> AEG RESEARCH SOLUTIONS</p>
+                <p><strong>Bank:</strong> Axis Bank of India</p>
+                <p><strong>Account No:</strong> 925020007742691</p>
+                <p><strong>IFSC Code:</strong> UTIB0001687</p>
+                <p><strong>Branch:</strong> Indrapuri Campus Branch</p>
+              </div>
+
+              {/* QR Code */}
+              <div className="flex flex-col items-center justify-center bg-muted rounded-lg p-4">
+                <img
+                  src={PaymentQR}
+                  alt="Payment QR Code"
+                  className="w-40 h-40 rounded-md border border-border"
+                />
+                <p className="text-xs text-muted-foreground mt-2">
+                  Scan to Pay
                 </p>
               </div>
+
             </div>
           </div>
         </div>
-      </section>
+      </div>
+
+      {/* Important Note */}
+      <div className="bg-accent/10 border border-accent/30 rounded-xl p-6 flex items-start gap-4">
+        <AlertCircle className="w-6 h-6 text-accent shrink-0 mt-0.5" />
+        <div>
+          <h4 className="font-semibold text-foreground mb-2">
+            Important Note
+          </h4>
+          <p className="text-muted-foreground text-sm">
+            After making the payment, please email the transaction details along
+            with a copy of the payment receipt to
+            <strong> aegresearchlens@gmail.com</strong> with your paper ID
+            (if applicable).
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 
       {/* Register CTA */}
       {/* <section className="section-padding bg-primary">
