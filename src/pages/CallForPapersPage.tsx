@@ -158,7 +158,7 @@ export default function CallForPapersPage() {
     <p className="text-gray-700 text-justify leading-relaxed">
       Prospective authors are invited to submit original and unpublished
       full-length research papers electronically in the prescribed format by
-      <span className="font-semibold text-black-700"> 10th May 2026</span>.
+      <span className="font-semibold text-black-700"> 27th May 2026</span>.
       The manuscript length should be within
       <span className="font-semibold"> 8–10 pages</span>, prepared strictly
       according to the conference template.
@@ -191,7 +191,7 @@ export default function CallForPapersPage() {
       For detailed submission guidelines, templates, and important updates,
       please visit the official conference website:&nbsp;
       <a
-        href="http://www.icaimaes.in/"
+        href="https://aimaes.in/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-600 hover:underline"

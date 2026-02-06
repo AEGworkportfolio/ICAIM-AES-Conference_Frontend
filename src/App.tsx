@@ -28,7 +28,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        {/* 👇 Scroll reset on route change */}
+        {/*  Scroll reset on route change */}
         <ScrollToTop />
 
         <Layout>

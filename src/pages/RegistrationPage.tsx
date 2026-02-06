@@ -53,7 +53,7 @@ export default function RegistrationPage() {
         <div className="section-container">
           <SectionHeader 
             title="Registration Fees" 
-            subtitle="Early bird deadline: 01st June, 2026"
+            subtitle="Early bird deadline: 18th June, 2026"
           />
           
           <div className="grid lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -169,7 +169,7 @@ export default function RegistrationPage() {
           <p className="text-muted-foreground text-sm">
             After making the payment, please email the transaction details along
             with a copy of the payment receipt to
-            <strong> aegresearchlens@gmail.com</strong> with your paper ID
+            <strong> editor@aimaes.in</strong> with your paper ID
             (if applicable).
           </p>
         </div>

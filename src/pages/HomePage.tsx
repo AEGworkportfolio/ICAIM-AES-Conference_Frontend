@@ -48,11 +48,11 @@ const tracks = [
 ];
 
 const importantDates = [
-  { date: '20th February 2026', event: 'Call for Papers Opens' },
-  { date: '10th May 2026', event: 'Full-Length Paper Submission Deadline' },
-  { date: '20th May 2026', event: 'Acceptance Notification' },
-  { date: '01st June 2026', event: 'Last Date for Paper Registration' },
-  { date: '22–26th July 2026', event: 'Conference Dates' },
+  { date: '7th March 2026', event: 'Call for Papers Opens' },
+  { date: '27th May 2026', event: 'Full-Length Paper Submission Deadline' },
+  { date: '6th June 2026', event: 'Acceptance Notification' },
+  { date: '18th June 2026', event: 'Last Date for Paper Registration' },
+  { date: '8–12 August 2026', event: 'Conference Dates' },
 ];
 const highlights = [
   { icon: Users, number: '500+', label: 'Expected Attendees' },
@@ -78,7 +78,7 @@ export default function HomePage() {
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-accent/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6 animate-fade-up">
               <Calendar className="w-4 h-4 text-accent" />
-              <span className="text-primary-foreground/90 text-sm font-medium">22-26th July, 2026</span>
+              <span className="text-primary-foreground/90 text-sm font-medium">8–12th August 2026</span>
             </div>
 
             <h1 className="font-bold text-4xl md:text-6xl lg:text-7xl text-primary-foreground mb-6 animate-fade-up stagger-1">
@@ -94,10 +94,25 @@ export default function HomePage() {
               </h1>
             </p>
 
-            <div className="flex items-center gap-2 font-serif text-primary-foreground/70 mb-8 animate-fade-up stagger-3">
-              <MapPin className="w-5 h-5" />
-              <span>VIDYAPEETH INSTITUTE OF SCIENCE AND TECHNOLOGY BHOPAL, 462022, INDIA</span>
-            </div>
+            <div className="flex flex-col gap-2 font-medium text-primary-foreground/90 mb-8 animate-fade-up stagger-3">
+  <div className="flex items-center gap-2">
+    <MapPin className="w-5 h-5 flex-shrink-0" />
+    <p className="text-lg">
+      <span className="text-primary-foreground font-bold">VIDYAPEETH INSTITUTE OF SCIENCE AND TECHNOLOGY</span>
+      , Bhopal, 462022, India
+    </p>
+  </div>
+  
+  <p className="pl-7 text-base">in collaboration with</p>
+  
+  <p className="pl-7 text-base">
+    <span className="text-primary-foreground font-bold">Rajalakshmi Institute of Technology</span>, Chennai, India
+  </p>
+  
+  <p className="pl-7 text-base">
+    <span className="text-primary-foreground font-bold">Institute of Advanced Technology and Research and Development</span>, <span className="text-primary-foreground font-bold">Eastern Mediterranean University</span>, North Cyprus, Türkiye
+  </p>
+</div>
 
             <div className="flex flex-col font-serif sm:flex-row gap-4 animate-fade-up stagger-4">
               <Link to="/registration">
@@ -134,74 +149,106 @@ export default function HomePage() {
       </section> */}
 
       {/* About Section */}
-      <section className="section-padding bg-background">
-        <div className="section-container">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <SectionHeader
-                title="About the Conference"
-                subtitle="Join leading researchers and industry experts"
-                centered={false}
-              />
-              <p className="text-muted-foreground text-justify justify-center text-blue-900 leading-relaxed mb-6">
-                The International Conference on AI/ML Applications in Advanced Energy Systems (ICAIM-AES 2026) is an international platform that brings together researchers, academicians, and industry professionals to present and discuss recent advancements in Artificial Intelligence and Machine Learning applied to advanced energy systems. The conference is organized by the Department of Computer Science and Engineering, Vidhyapeeth Institute of Science and Technology, Bhopal, in association with
-                <a
-                  href="https://ritchennai.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue-700 hover:underline mx-1"
-                >
-                  Rajalakshmi Institute of Technology (RIT), Chennai, India
-                </a>
-                and
-                <a
-                  href="https://www.emu.edu.tr/en"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-blue-700 hover:underline mx-1"
-                >
-                  Eastern Mediterranean University (EMU), North Cyprus, Türkiye
-                </a>, with a focus on fostering interdisciplinary research and innovation.
-              </p>
+     <section className="section-padding flex  bg-background">
+  <div className="section-container">
+    <div className="flex flex-col gap-14">
 
-              <p className="text-muted-foreground text-justify leading-relaxed text-blue-900 mb-8">
-                The conference emphasizes key areas such as data-driven modeling, intelligent control, energy optimization, renewable and sustainable energy systems, energy storage, and predictive maintenance. ICAIM-AES 2026 aims to promote knowledge exchange, academic–industry collaboration, and the development of intelligent and sustainable solutions to address global energy challenges.
-              </p>
-              <div className="mb-4 flex flex-col gap-2">
-  <span className="inline-flex items-center rounded-full bg-yellow-100 px-4 py-1 text-sm font-semibold text-yellow-800 shadow-sm">
-    📚 Publication Details
-  </span>
+      {/* ABOUT SECTION */}
+     <div className="flex flex-col items-center text-center">
 
-  <span className="inline-flex w-fit items-center rounded-md bg-red-600 px-3 py-1 text-xs font-extrabold text-white shadow-md animate-pulse">
-    🚀 COMING SOON
-  </span>
+  <SectionHeader
+    title="About the Conference"
+    subtitle="Join leading researchers and industry experts"
+    centered={true}
+  />
+
+  {/* CONTENT WRAPPER WITH CONTROLLED WIDTH */}
+  <div className="max-w-4xl w-full">
+
+    <p className="text-justify text-blue-900 leading-relaxed mb-6">
+      The International Conference on AI/ML Applications in Advanced Energy Systems (ICAIM-AES 2026) is an
+      international platform that brings together researchers, academicians, and industry professionals to
+      present and discuss recent advancements in Artificial Intelligence and Machine Learning applied to
+      advanced energy systems. The conference is organized by the Department of Computer Science and
+      Engineering, Vidhyapeeth Institute of Science and Technology, Bhopal, in association with
+      <a
+        href="https://ritchennai.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-semibold text-blue-700 hover:underline mx-1"
+      >
+        Rajalakshmi Institute of Technology (RIT), Chennai, India
+      </a>
+      and
+      <a
+        href="https://www.emu.edu.tr/en"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="font-semibold text-blue-700 hover:underline mx-1"
+      >
+        Eastern Mediterranean University (EMU), North Cyprus, Türkiye
+      </a>,
+      with a focus on fostering interdisciplinary research and innovation.
+    </p>
+
+    <p className="text-justify text-blue-900 leading-relaxed mb-8">
+      The conference emphasizes key areas such as data-driven modeling, intelligent control, energy
+      optimization, renewable and sustainable energy systems, energy storage, and predictive maintenance.
+      ICAIM-AES 2026 aims to promote knowledge exchange, academic–industry collaboration, and the development
+      of intelligent and sustainable solutions to address global energy challenges.
+    </p>
+
+    {/* BADGES */}
+    <div className="mb-6 flex flex-col items-center gap-3">
+      <span className="inline-flex items-center rounded-full bg-yellow-100 px-4 py-1 text-sm font-semibold text-yellow-800 shadow-sm">
+        📚 Publication Details
+      </span>
+
+      <span className="inline-flex items-center rounded-md bg-red-600 px-3 py-1 text-xs font-extrabold text-white shadow-md animate-pulse">
+        🚀 COMING SOON
+      </span>
+    </div>
+
+    {/* BUTTON */}
+    <div className="flex justify-center">
+      <Link to="/about">
+        <Button variant="outline" size="lg" className="flex items-center gap-2">
+          Learn More About ICAIM-AES
+          <ArrowRight className="w-4 h-4" />
+        </Button>
+      </Link>
+    </div>
+
+  </div>
 </div>
 
-              <Link to="/about">
-                <Button variant="outline" size="lg">
-                  Learn More About ICAIM-AES
-                  <ArrowRight className="w-4 h-4" />
-                </Button>
-              </Link>
+
+      {/* TRACKS SECTION */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {tracks.map((track, index) => (
+          <div
+            key={index}
+            className="bg-card p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300"
+          >
+            <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
+              <track.icon className="w-6 h-6 text-accent" />
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
-              {tracks.map((track, index) => (
-                <div
-                  key={index}
-                  className="bg-card p-6 rounded-xl card-elevated"
-                >
-                  <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
-                    <track.icon className="w-6 h-6 text-accent" />
-                  </div>
-                  <h3 className="font-semibold text-blue-980 text-foreground mb-2">{track.title}</h3>
-                  <p className="text-sm text-blue-900 text-muted-foreground">{track.desc}</p>
-                </div>
-              ))}
-            </div>
+            <h3 className="font-semibold text-blue-900 text-lg mb-2">
+              {track.title}
+            </h3>
+
+            <p className="text-sm text-blue-800 leading-relaxed">
+              {track.desc}
+            </p>
           </div>
-        </div>
-      </section>
+        ))}
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
       {/* Important Dates Section */}
       <section className="section-padding bg-muted">

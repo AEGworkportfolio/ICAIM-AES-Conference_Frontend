@@ -43,7 +43,7 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-2 text-orange-400 font-semibold text-sm mb-6">
               <div className="w-1 h-1 rounded-full bg-orange-400"></div>
-              22–26th July 2026
+            8–12 August 2026
             </div>
             
             {/* Social Media Links */}
@@ -116,7 +116,7 @@ export function Footer() {
                 <div className="w-8 h-8 rounded-lg bg-slate-700/50 flex items-center justify-center shrink-0 group-hover:bg-orange-500/20 transition-colors">
                   <Mail className="w-4 h-4 text-orange-400" />
                 </div>
-                <span className="pt-1">aegresearchlens@gmail.com</span>
+                <span className="pt-1">editor@aimaes.in</span>
               </li>
               <li className="flex items-start gap-3 text-sm text-slate-300 group">
                 <div className="w-8 h-8 rounded-lg bg-slate-700/50 flex items-center justify-center shrink-0 group-hover:bg-orange-500/20 transition-colors">

@@ -134,7 +134,7 @@ export default function AboutPage() {
             <div className="bg-white/10 rounded-xl p-6 border border-white/20">
               <h3 className="text-xl font-semibold text-blue-950 mb-4">Important Dates</h3>
               <p className="text-black/70 leading-relaxed">
-                The conference will commence with the Call for Papers on <strong className="text-">20t February 2026</strong>, followed by the full-length paper submission deadline on <strong className="text-">10th May 2026</strong>. Acceptance notifications will be announced on <strong className="text-">20th May 2026</strong>, and the final date for paper registration is <strong className="text">01st June 2026</strong>. The conference will be held from <strong className="text-">22–26 July 2026</strong>, featuring keynote lectures, technical sessions, and panel discussions.
+                The conference will commence with the Call for Papers on <strong className="text-">7th March 2026</strong>, followed by the full-length paper submission deadline on <strong className="text-">27th May 2026</strong>. Acceptance notifications will be announced on <strong className="text-">6th June 2026</strong>, and the final date for paper registration is <strong className="text">18th June 2026</strong>. The conference will be held from <strong className="text-">8–12 August 2026</strong>, featuring keynote lectures, technical sessions, and panel discussions.
               </p>
             </div>
           </div>

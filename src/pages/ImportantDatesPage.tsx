@@ -3,31 +3,34 @@ import { SectionHeader } from '@/components/sections/SectionHeader';
 import { Calendar, Clock, AlertTriangle } from 'lucide-react';
 
 const dates = [
+  
   {
-    date: '20th February 2026',
+    date: '7th March 2026',
     event: 'Call for Papers Opens',
     status: 'active',
   },
   {
-    date: '10th May 2026',
+    date: '27th May 2026',
     event: 'Full-Length Paper Submission Deadline',
     status: 'active',
   },
   {
-    date: '20th May 2026',
+    date: '6th June 2026',
     event: 'Acceptance Notification',
     status: 'upcoming',
   },
   {
-    date: '01st June 2026',
+    date: '18th June 2026',
     event: 'Last Date for Paper Registration',
     status: 'upcoming',
   },
   {
-    date: '22–26 July 2026',
+    date: '8–12 August 2026',
     event: 'Conference Dates',
     status: 'upcoming',
   },
+
+
 ];
 
 
@@ -62,7 +65,7 @@ export default function ImportantDatesPage() {
     Paper Submission Deadline Approaching!
   </h4>
   <p className="text-muted-foreground text-sm">
-    Submit your full-length paper by <strong>10th May 2026</strong> to be considered
+    Submit your full-length paper by <strong>27th May 2026</strong> to be considered
     for review and inclusion in the conference proceedings.
   </p>
 </div>

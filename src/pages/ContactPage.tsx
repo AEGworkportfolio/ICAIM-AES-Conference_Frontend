@@ -5,7 +5,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    details: ['aegresearchlens@gmail.com'],
+    details: ['editor@aimaes.in'],
     color: 'bg-blue-500/10 text-blue-600',
   },
   {
