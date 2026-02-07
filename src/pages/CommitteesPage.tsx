@@ -94,7 +94,7 @@ const committees = {
       },
       {
         name: 'Dr. Reliance Jain',
-        // role: 'Advisory Board Member',
+        role: 'Advisory Board Member',
         affiliation:
           'School of Materials Science and Engineering, Yeungnam University, Republic of Korea',
       },
