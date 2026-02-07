@@ -3,6 +3,14 @@ import { Mail, MapPin, GraduationCap } from 'lucide-react';
 
 const EditorialBoard = () => {
   const editors = [
+     {
+      name: "Dr. Rajeev Arya",
+      title: "Director",
+      department: "",
+      institution: "Vidhyapeeth Institute of Science and Technology",
+      location: "Bhopal, 462022, India",
+      email: "directorvidhyapeeth@gmail.com"
+    },
     {
       name: "Dr. Robert Cep",
       title: "Professor",
@@ -13,20 +21,13 @@ const EditorialBoard = () => {
     },
     {
       name: "Sharad Sharma",
-      title: "Director",
+      title: "Director (Research Consultant) ",
       department: "",
-      institution: "AEG Consultancy Services",
+      institution: "AEG Consultancy Services Pvt. Ltd.",
       location: "Bhopal, 462022, India",
       email: "director@aegservices.in"
     },
-    {
-      name: "Dr. Rajiv Arya",
-      title: "",
-      department: "",
-      institution: "Vidhyapeeth Institute of Science and Technology",
-      location: "Bhopal, 462022, India",
-      email: "animesh@iitbbs.ac.in"
-    },
+   
     {
       name: "Dr. Ramesh Kumar Nayak",
       title: "Assistant Professor",

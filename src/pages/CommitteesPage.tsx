@@ -8,12 +8,12 @@ const committees = {
       {
         name: 'Smt. Shraddha Suhane',
         role: 'Chief Patron',
-        affiliation: 'CEO, VGI',
+        affiliation: 'CEO, Vidhyapeeth Group of Institutes',
       },
       {
         name: 'Er. Ashish Suhane',
         role: 'Chief Patron',
-        affiliation: 'Executive Secretary, VGI',
+        affiliation: 'Executive Secretary, Vidhyapeeth Group of Institutes',
       },
     ],
   },
@@ -23,7 +23,7 @@ const committees = {
     icon: Settings,
     members: [
       {
-        name: 'Dr. Rajiv Arya',
+        name: 'Dr. Rajeev Arya',
         role: 'Conference Chairman',
         affiliation:
           'Director, Vidhyapeeth Institute of Science and Technology, Bhopal',
@@ -31,7 +31,7 @@ const committees = {
       {
         name: 'Sharad Sharma',
         role: 'Conference Chairman',
-        affiliation: 'Director, AEG Consultancy Services, Bhopal',
+        affiliation: 'Director (Research Consultant), AEG Consultancy Services Pvt. Ltd., Bhopal',
       },
     ],
   },
@@ -78,13 +78,8 @@ const committees = {
     'Director, Nanotechnology and Multifunctional Structures Research Center (NMSRC), Department of Mechanical Engineering, Eastern Mediterranean University, North Cyprus via Mersin 10, 99628, Turkey',
 },
 
-      ,
-      {
-        name: 'Dr. Sheetal Kumar Dewangan',
-        role: 'Advisory Board Member',
-        affiliation:
-          'CHRIST (Deemed to be University), Bangalore, Karnataka, India',
-      },
+      
+     
       {
         name: 'Dr. Rajesh Purohit',
         role: 'Advisory Board Member',
@@ -99,7 +94,7 @@ const committees = {
       },
       {
         name: 'Dr. Reliance Jain',
-        role: 'Advisory Board Member',
+        // role: 'Advisory Board Member',
         affiliation:
           'School of Materials Science and Engineering, Yeungnam University, Republic of Korea',
       },
