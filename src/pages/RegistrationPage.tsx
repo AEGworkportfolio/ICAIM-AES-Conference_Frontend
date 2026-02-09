@@ -11,9 +11,9 @@ const registrationFees = {
     title: 'Indian Delegates',
     currency: 'INR (₹)',
     categories: [
-      { category: 'Students (UG/PG)', early: '₹6,000',  },
+      { category: 'Students (UG/PG)', early: '₹8,000',  },
       // { category: 'Research Scholars', early: '₹4,500', regular: '₹5,500' },
-      { category: 'Academicians', early: '₹8,000', },
+      { category: 'Academicians', early: '₹12,000', },
       { category: 'Industry Professionals', early: '₹9,000', },
       { category: 'Attendee Only', early: '₹2,000', },
     ],
